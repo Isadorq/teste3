@@ -1,0 +1,70 @@
+body {
+    background-color: #810E13;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #38040e;
+}
+
+.container {
+    text-align: center;
+}
+
+
+.title {
+    font-size: 10px;
+}
+.title, .things, .fim {
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.things {
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list li {
+    margin: 10px 0;
+}
+
+.logo img {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin: 10px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #333;
+}
+
+.vant {
+    font-size: 30px;
+}
+
+li{
+    color: white;
+}
